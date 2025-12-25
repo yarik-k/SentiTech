@@ -1,0 +1,23 @@
+main h1{
+    margin-top: 4rem;
+    color: var(--color-dark);
+}
+
+main .main-box {
+    width: 80%;
+    margin: 1rem auto;
+    height: 80vh;
+    padding: 2rem;
+    background-color: var(--color-white);
+    box-shadow: var(--box-shadow);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+main .main-box h2 {
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
+}

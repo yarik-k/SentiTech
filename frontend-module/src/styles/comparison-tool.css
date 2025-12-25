@@ -1,0 +1,72 @@
+.comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 15px;
+    color: var(--color-dark);
+}
+
+.comparison-table th {
+    background-color: var(--table-highlights);
+    color: var(--color-primary);
+    font-weight: bold;
+    padding: 12px;
+    text-align: left;
+    font-size: 16px;
+    border-bottom: 3px solid var(--color-primary);
+}
+
+.comparison-table td {
+    padding: 12px;
+    border: 1px solid var(--table-highlights);
+    vertical-align: top;
+}
+
+.comparison-table tbody tr:nth-child(even) {
+    background-color: var(--table-highlights);
+}
+
+.comparison-table tbody td:nth-child(1) {
+    font-weight: bold;
+}
+
+.comparison-table td button {
+    width: 125px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s;
+    color: var(--color-dark);
+}
+
+.comparison-table td .senti-tech-btn{
+    background-color: #1b8533;
+    cursor: pointer;
+}
+
+.comparison-table td .senti-tech-btn:hover {
+    background-color: #1b6c2d;
+}
+
+.comparison-table .best-cell {
+    background-color: var(--color-primary);
+    border-style: solid;
+    pointer-events: auto;
+}
+
+.hover-tooltip {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    max-width: 250px;
+    pointer-events: none;
+    z-index: 1000;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+  }
+  

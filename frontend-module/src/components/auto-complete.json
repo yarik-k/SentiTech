@@ -1,0 +1,540 @@
+{
+    "laptops": [
+      {
+        "brand": "Apple",
+        "products": [
+          "MacBook Air M1",
+          "MacBook Air M2",
+          "MacBook Air M3",
+          "MacBook Air M4",
+          "MacBook Pro M1",
+          "MacBook Pro M1 Pro",
+          "MacBook Pro M1 Max",
+          "MacBook Pro M2",
+          "MacBook Pro M2 Pro",
+          "MacBook Pro M2 Max",
+          "MacBook Pro M3",
+          "MacBook Pro M3 Pro",
+          "MacBook Pro M3 Max",
+          "MacBook Pro M4",
+          "MacBook Pro M4 Pro",
+          "MacBook Pro M4 Max",
+          "MacBook Air 2020",
+          "MacBook Pro 2019",
+          "MacBook Pro 2018",
+          "MacBook Air 2019",
+          "Macbook Air 2018"
+        ]
+      },
+      {
+        "brand": "Dell",
+        "products": [
+          "XPS 13",
+          "XPS 13 Plus",
+          "XPS 15",
+          "XPS 17",
+          "Inspiron 15 3000",
+          "Inspiron 14 2-in-1",
+          "G15 Gaming Laptop",
+          "Alienware m15 R6",
+          "Alienware x14",
+          "Alienware x17 R2",
+          "Latitude 5520",
+          "Latitude 7420",
+          "Precision 5560",
+          "Precision 7560",
+          "Inspiron 16 Plus"
+        ]
+      },
+      {
+        "brand": "HP",
+        "products": [
+          "Spectre x360 13.5",
+          "Spectre x360 16",
+          "ENVY 13",
+          "ENVY 15",
+          "Pavilion 14",
+          "Pavilion 15",
+          "Pavilion x360 14",
+          "EliteBook 840 G9",
+          "EliteBook 850 G9",
+          "ProBook 450 G9",
+          "Omen 16",
+          "Omen 17",
+          "ZBook Studio G8",
+          "ZBook Firefly G8",
+          "Pavilion Aero 13"
+        ]
+      },
+      {
+        "brand": "Lenovo",
+        "products": [
+          "ThinkPad X1 Carbon",
+          "ThinkPad X1 Yoga",
+          "ThinkPad X13",
+          "ThinkPad T14",
+          "ThinkPad P1",
+          "ThinkPad P14s",
+          "ThinkPad E14",
+          "Yoga 7i 14",
+          "Yoga 9i 14",
+          "Legion 5",
+          "Legion 7",
+          "Ideapad 3",
+          "Ideapad 5",
+          "Ideapad Gaming 3",
+          "IdeaPad Flex 5"
+        ]
+      },
+      {
+        "brand": "ASUS",
+        "products": [
+          "ZenBook 13 OLED",
+          "ZenBook 14",
+          "ZenBook Pro Duo 15",
+          "VivoBook S15",
+          "VivoBook 15",
+          "ROG Zephyrus G14",
+          "ROG Zephyrus G15",
+          "ROG Strix G15",
+          "ROG Flow X13",
+          "TUF Gaming A15",
+          "TUF Dash F15",
+          "ExpertBook B9",
+          "ProArt StudioBook 16",
+          "Chromebook Flip C434",
+          "ZenBook Flip 14"
+        ]
+      },
+      {
+        "brand": "Acer",
+        "products": [
+          "Swift 3",
+          "Swift 5",
+          "Aspire 3",
+          "Aspire 5",
+          "Aspire 7",
+          "Spin 3",
+          "Spin 5",
+          "Predator Helios 300",
+          "Predator Triton 500 SE",
+          "Nitro 5",
+          "Chromebook Spin 713",
+          "Enduro N3",
+          "TravelMate P2",
+          "TravelMate P6",
+          "ConceptD 3 Ezel"
+        ]
+      },
+      {
+        "brand": "Microsoft",
+        "products": [
+          "Surface Laptop 4",
+          "Surface Laptop 5",
+          "Surface Laptop Go 2",
+          "Surface Book 3",
+          "Surface Pro 7+",
+          "Surface Pro 8",
+          "Surface Pro 9",
+          "Surface Laptop Studio",
+          "Surface Go 3",
+          "Surface Laptop SE",
+          "Surface Pro X",
+          "Surface Pro",
+          "Surface Book 2",
+          "Surface Laptop 3",
+          "Surface Laptop 2"
+        ]
+      },
+      {
+        "brand": "Razer",
+        "products": [
+          "Blade 15 Base",
+          "Blade 15 Advanced",
+          "Blade 17",
+          "Blade 14",
+          "Razer Book 13",
+          "Blade Stealth 13",
+          "Blade Pro 17",
+          "Blade 15",
+          "Blade 17",
+          "Blade 16",
+          "Blade 18",
+          "Book",
+          "Blade 15 OLED",
+          "Blade Pro 17",
+          "Blade Stealth 13"
+        ]
+      }
+    ],
+    "smartphones": [
+      {
+        "brand": "Apple",
+        "products": [
+          "iPhone 14",
+          "iPhone 14 Plus",
+          "iPhone 14 Pro",
+          "iPhone 14 Pro Max",
+          "iPhone 13",
+          "iPhone 13 mini",
+          "iPhone 13 Pro",
+          "iPhone 13 Pro Max",
+          "iPhone SE",
+          "iPhone 12",
+          "iPhone 12 mini",
+          "iPhone 11"
+        ]
+      },
+      {
+        "brand": "Samsung",
+        "products": [
+          "Galaxy S23",
+          "Galaxy S23+",
+          "Galaxy S23 Ultra",
+          "Galaxy Z Fold4",
+          "Galaxy Z Flip4",
+          "Galaxy A54 5G",
+          "Galaxy A34 5G",
+          "Galaxy Note20",
+          "Galaxy S21 FE",
+          "Galaxy A14 5G",
+          "Galaxy A53 5G",
+          "Galaxy M33 5G"
+        ]
+      },
+      {
+        "brand": "Google",
+        "products": [
+          "Pixel 7",
+          "Pixel 7 Pro",
+          "Pixel 6",
+          "Pixel 6 Pro",
+          "Pixel 6a",
+          "Pixel 5",
+          "Pixel 5a",
+          "Pixel 4a",
+          "Pixel 4 XL",
+          "Pixel 3a XL"
+        ]
+      },
+      {
+        "brand": "OnePlus",
+        "products": [
+          "OnePlus 11",
+          "OnePlus 10 Pro",
+          "OnePlus 10T",
+          "OnePlus 9",
+          "OnePlus 9 Pro",
+          "OnePlus Nord 2T",
+          "OnePlus Nord CE 2",
+          "OnePlus 8",
+          "OnePlus 7T",
+          "OnePlus 7T Pro",
+          "OnePlus Nord N200",
+          "OnePlus Nord N10 5G"
+        ]
+      },
+      {
+        "brand": "Xiaomi",
+        "products": [
+          "Xiaomi 13",
+          "Xiaomi 13 Pro",
+          "Xiaomi 12T",
+          "Xiaomi 12T Pro",
+          "Mi 11",
+          "Mi 11 Ultra",
+          "Mi 11i",
+          "Redmi Note 12",
+          "Redmi Note 12 Pro",
+          "Poco F4 GT",
+          "Poco X4 Pro 5G",
+          "Redmi 10"
+        ]
+      },
+      {
+        "brand": "OPPO",
+        "products": [
+          "Find X5",
+          "Find X5 Pro",
+          "Reno8 Pro",
+          "Reno8 T 5G",
+          "A96",
+          "A77s",
+          "A17",
+          "A57",
+          "Find N2 Flip",
+          "Find X3 Pro",
+          "Reno7 5G",
+          "A74 5G"
+        ]
+      },
+      {
+        "brand": "Huawei",
+        "products": [
+          "P50",
+          "P50 Pro",
+          "P50 Pocket",
+          "Mate 40 Pro",
+          "Nova 9",
+          "Mate X2",
+          "P40",
+          "Mate 30 Pro",
+          "Nova 8i",
+          "Y9a",
+          "Mate 40 RS",
+          "Nova 7i"
+        ]
+      },
+      {
+        "brand": "Motorola",
+        "products": [
+          "Moto Edge 30 Ultra",
+          "Moto Edge 30 Fusion",
+          "Moto Edge 30 Neo",
+          "Moto G82 5G",
+          "Moto G62 5G",
+          "Moto G53 5G",
+          "Moto G Power",
+          "Moto Razr 5G",
+          "Moto G Stylus",
+          "Moto Edge 20 Pro",
+          "Moto One Fusion+",
+          "Moto G31"
+        ]
+      }
+    ],
+    "headphones": [
+      {
+        "brand": "Sony",
+        "products": [
+          "WH-1000XM4",
+          "WH-1000XM5",
+          "WF-1000XM4",
+          "WF-1000XM3",
+          "WH-XB910N",
+          "WH-XB900N",
+          "WF-SP800N",
+          "MDR-7506",
+          "MDR-1AM2",
+          "LinkBuds S"
+        ]
+      },
+      {
+        "brand": "Bose",
+        "products": [
+          "QuietComfort 45",
+          "QuietComfort 35 II",
+          "Noise Cancelling Headphones 700",
+          "SoundLink Around-Ear II",
+          "SoundSport Wireless",
+          "QuietComfort Earbuds",
+          "QuietComfort Earbuds II",
+          "SoundSport Free",
+          "SoundTrue Ultra",
+          "SoundWear Companion"
+        ]
+      },
+      {
+        "brand": "Apple",
+        "products": [
+          "AirPods 2nd Generation",
+          "AirPods 3rd Generation",
+          "AirPods Pro",
+          "AirPods Max",
+          "Beats Studio3 Wireless",
+          "Beats Solo3 Wireless",
+          "Beats Fit Pro",
+          "Powerbeats Pro",
+          "Beats Flex",
+          "Beats EP"
+        ]
+      },
+      {
+        "brand": "Sennheiser",
+        "products": [
+          "HD 660 S",
+          "HD 600",
+          "HD 650",
+          "Momentum Wireless 3",
+          "Momentum 4 Wireless",
+          "Momentum True Wireless 3",
+          "CX Plus True Wireless",
+          "PXC 550-II",
+          "IE 300",
+          "IE 80S"
+        ]
+      },
+      {
+        "brand": "JBL",
+        "products": [
+          "Live 660NC",
+          "Live 460NC",
+          "Tune 760NC",
+          "Tour One",
+          "Quantum 800",
+          "Free II",
+          "Reflect Flow Pro",
+          "Endurance Peak II",
+          "UA Project Rock Over-Ear",
+          "Everest 710GA"
+        ]
+      },
+      {
+        "brand": "Audio-Technica",
+        "products": [
+          "ATH-M50x",
+          "ATH-M50xBT2",
+          "ATH-ANC700BT",
+          "ATH-SR50BT",
+          "ATH-MSR7b",
+          "ATH-G1WL (Gaming)",
+          "ATH-CKS5TW",
+          "ATH-CKS50TW",
+          "ATH-AD700X",
+          "ATH-ADG1X"
+        ]
+      }
+    ],
+    "wearables": [
+      {
+        "brand": "Apple",
+        "products": [
+          "Watch Series 8",
+          "Watch Series 7",
+          "Watch SE (2nd Generation)",
+          "Watch Ultra",
+          "Watch Nike Series 6",
+          "Watch Hermes Series 7",
+          "Watch Series 5",
+          "Watch Series 4",
+          "Watch SE (1st Generation)",
+          "Watch Series 3"
+        ]
+      },
+      {
+        "brand": "Samsung",
+        "products": [
+          "Galaxy Watch5",
+          "Galaxy Watch5 Pro",
+          "Galaxy Watch4",
+          "Galaxy Watch4 Classic",
+          "Galaxy Watch3",
+          "Galaxy Fit2",
+          "Galaxy Watch Active2",
+          "Galaxy Watch Active",
+          "Gear S3 Frontier",
+          "Gear Sport"
+        ]
+      },
+      {
+        "brand": "Fitbit",
+        "products": [
+          "Sense 2",
+          "Versa 4",
+          "Inspire 3",
+          "Luxe",
+          "Charge 5",
+          "Ace 3",
+          "Versa 2",
+          "Ionic",
+          "Inspire HR",
+          "Alta HR"
+        ]
+      },
+      {
+        "brand": "Garmin",
+        "products": [
+          "Fenix 7",
+          "Forerunner 955",
+          "Forerunner 255",
+          "Venu 2",
+          "Venu Sq",
+          "Instinct 2",
+          "Vivomove Trend",
+          "Lily",
+          "Approach S62",
+          "Vivoactive 4"
+        ]
+      },
+      {
+        "brand": "Huawei",
+        "products": [
+          "Watch GT 3 Pro",
+          "Watch 3",
+          "Watch GT 2 Pro",
+          "Watch Fit 2",
+          "Band 7",
+          "Watch D",
+          "Watch GT Runner",
+          "TalkBand B6",
+          "Watch GT 2",
+          "Band 6"
+        ]
+      },
+      {
+        "brand": "Fossil",
+        "products": [
+          "Gen 6",
+          "Gen 5E",
+          "Sport",
+          "Hybrid HR",
+          "Gen 5 Garrett",
+          "Carlyle HR",
+          "Julianna HR",
+          "Collider HR",
+          "Charter HR",
+          "Neutra Hybrid"
+        ]
+      }
+    ],
+    "gamingConsoles": [
+      {
+        "brand": "Sony",
+        "products": [
+          "PlayStation 5",
+          "PlayStation 4 Pro",
+          "PlayStation 4 Slim",
+          "PlayStation VR",
+          "PlayStation Classic"
+        ]
+      },
+      {
+        "brand": "Microsoft",
+        "products": [
+          "Xbox Series X",
+          "Xbox Series S",
+          "Xbox One X",
+          "Xbox One S",
+          "Xbox One"
+        ]
+      },
+      {
+        "brand": "Nintendo",
+        "products": [
+          "Switch OLED",
+          "Switch",
+          "Switch Lite",
+          "3DS XL",
+          "2DS"
+        ]
+      },
+      {
+        "brand": "Valve",
+        "products": [
+          "Steam Deck",
+          "Valve Index VR Kit"
+        ]
+      },
+      {
+        "brand": "Sega",
+        "products": [
+          "Genesis/Mega Drive Mini",
+          "Saturn",
+          "Dreamcast",
+          "Genesis Flashback HD",
+          "Game Gear Micro"
+        ]
+      }
+    ]
+  }
+  

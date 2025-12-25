@@ -1,0 +1,86 @@
+.main-box {
+    min-width: 32rem;
+}
+
+.main-box button {
+    background-color: var(--color-primary);
+    width: 8rem;
+    height: 2.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 1s ease;
+}
+
+.main-box div button {
+    margin-top: 2.7rem;
+}
+
+.main-box button:hover {
+    background-color: var(--primary-hover);
+    transition: transform 1s ease;
+}
+
+.main-box button span {
+    color: var(--color-dark);
+}
+
+.toggle-dark {
+    display: flex;
+    flex-direction: row;
+}
+
+.toggle-dark button {
+    margin-left: 2rem;
+    margin-top: 1.3rem;
+}
+
+.toggle-speech {
+    display: flex;
+    flex-direction: row;
+}
+
+.toggle-speech button {
+    margin-left: 2rem;
+    margin-top: 1.3rem;
+}
+
+.toggle-contrast {
+    display: flex;
+    flex-direction: row;
+}
+
+.toggle-contrast button {
+    margin-left: 2rem;
+    margin-top: 1.3rem;
+}
+
+.language-picker {
+    display: grid;
+    grid-template-columns: repeat(3, 120px);  /* 3 buttons per row */
+    grid-gap: 15px;                          /* Space between buttons */
+    justify-content: center;                 /* Center the grid */
+    align-items: center;
+    margin-top: 20px;
+}
+
+.language-picker button {
+    width: 100px;
+    height: 50px;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.language-picker button:hover {
+    transform: scale(1.1);
+}
+
+.language-picker img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}

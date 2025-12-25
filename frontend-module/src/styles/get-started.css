@@ -1,0 +1,181 @@
+main h1{
+    margin-top: 4rem;
+    color: var(--color-dark);
+}
+
+main .welcome {
+    width: 80%;
+    margin: 1rem auto;
+    height: 50vh;
+    padding: 1rem 2rem;
+    background-color: var(--color-white);
+    box-shadow: var(--box-shadow);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+main .welcome h2 {
+    margin-top: 2rem;
+}
+
+main .welcome h3 {
+    font-size: 17px;
+    margin-top: 1rem;
+}
+
+main .welcome ol {
+    margin-left: 2rem;
+}
+
+main .welcome li {
+    font-size: 14px;
+    color: var(--color-dark);
+    margin-top: 0.4rem;
+}
+
+main .search {
+    width: 80%;
+    margin: 1rem auto;
+    height: 12rem;
+    padding: 2rem;
+    background-color: var(--color-white);
+    box-shadow: var(--box-shadow);
+    border-radius: 15px;
+}
+
+main .welcome::-webkit-scrollbar,
+main .search::-webkit-scrollbar {
+    width: 5px;
+}
+
+main .welcome::-webkit-scrollbar-track,
+main .search::-webkit-scrollbar-track {
+    background: #f0f0f000;
+    border-radius: 10px;
+}
+
+main .welcome::-webkit-scrollbar-thumb,
+main .search::-webkit-scrollbar-thumb {
+    background: var(--color-primary);
+    border-radius: 10px;
+}
+
+main p {
+    text-align: justify;
+    margin-top: 1rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .search {
+    text-align: center;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#product-input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 30px;
+    border: 2px solid var(--color-dark);
+    background-color: transparent;
+    color: var(--color-dark);
+    font-size: 16px;
+    outline: none;
+    text-align: center;
+}
+
+.green-button {
+    width: 50px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: #1b8533;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.green-button .material-symbols-outlined {
+    color: white;
+}
+
+.green-button:hover {
+    background-color: #1b6c2d;
+}
+
+.rounded-green-button svg {
+    width: 24px;
+    height: 24px;
+}
+
+.loading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 1rem auto;
+    height: 12rem;
+    padding: 2rem;
+    background-color: var(--color-white);
+    box-shadow: var(--box-shadow);
+    border-radius: 15px;
+}
+
+.loading-spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid var(--color-primary);
+    border-top: 5px solid transparent;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+.progress-bar-background {
+    width: 80%;
+    height: 20px;
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.progress-bar-fill {
+    height: 100%;
+    background-color: green;
+    width: 0;
+    transition: width 0.5s ease-in-out;
+}
+
+.autocomplete-dropdown {
+    background: var(--color-white);
+    border: 1px solid var(--color-primary);
+    border-radius: 8px;
+    margin-top: 4px;
+    padding: 0;
+    max-height: 150px;
+    overflow-y: auto;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+.autocomplete-dropdown li {
+    padding: 8px;
+    cursor: pointer;
+    border-bottom: 1px solid var(--color-primary);
+}
