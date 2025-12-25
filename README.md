@@ -1,12 +1,10 @@
-*--------------------------- SentiTech ---------------------------*
+**--------------------------- SentiTech ---------------------------**
 
 SentiTech works as a multi-stage pipeline that turns raw product discussions into actionable insights. When a user searches for a product via the web interface, the system simultaneously searches YouTube for video transcripts and comments about the product, while querying tech discussion forums and review sites through Google. The collected data then flows through specialized preprocessing modules that clean, structure, and prepare the text for analysis — extracting sentences from forum posts, condensing transcripts to fit token limits, and filtering comments for relevance.
 
 Once the data is prepared, the system applies a complex AI analysis stack. Google ABSA (Aspect-Based Sentiment Analysis) breaks down forum discussions to identify specific product features and calculate sentiment scores for each aspect, while zero-shot classification processes video transcripts to categorize sentiment at the sentence level. Simultaneously, large language models generate high-level summaries, extract key benefits and drawbacks, and identify technical keywords that enthusiasts frequently mention. The YouTube comment analysis layer adds an emotional dimension by classifying user emotions and sentiments. All these insights are then aggregated by the backend server, which orchestrates the entire pipeline, tracks progress in real-time, and serves the processed data to a React frontend that visualizes everything from sentiment distributions and feature comparisons to emotion breakdowns and concise summaries.
 
-*-----------------------------------------------------------------*
-*-------------------------- Introduction -------------------------*
-*-----------------------------------------------------------------*
+**-------------------------- Introduction --------------------------**
 
 In this section I will briefly explain the file structure and what each file does.
 
@@ -18,7 +16,7 @@ The system is split into 5 distinct directories:
 
 Here is a brief file explaination for each directory, in the file structure order:
 
-*===== AI Module =====*
+**===== AI Module =====**
 - GetComparison.py : calls perplexity API to retrieve comparison data and best feature data, then handles and structures output for backend server
 - GoogleABSA.py : final pipeline stage for Google ABSA which holds aspect detection and aspect snippet sentiment calculation logic
 - progress_tracking.py : helper file with one function to update the progress bar
@@ -29,7 +27,7 @@ Here is a brief file explaination for each directory, in the file structure orde
 - TranscriptABSA.py : zero-shot classification file which takes in transcript data and classifies aspect sentiments from each sentence
 - TranscriptLLM.py : transcript LLM file which takes in shortened transcript data, and outputs summary points like benefits and drawbacks (and keyword cloud data)
 
-*===== Backend Module =====*
+**===== Backend Module =====**
 - product_name.txt : debugging step for safety, simply stores product name locally in a file as sometimes caching for product name was failing
 - main.py : the main server python file holding the FastAPI functionality and all backend processing tasks
 - output.txt : debugging step showing all the aspects and their respsective summaries for the frontend display in Google ABSA
@@ -39,7 +37,7 @@ Here is a brief file explaination for each directory, in the file structure orde
 - tldr_output.log : TLDR (quick verdict) output file used for processing the model output
 - transcripts_distributions.json : transcript distributions resulting from zero-shot classification
 
-*===== Data Collection Module =====*
+**===== Data Collection Module =====**
 
 **===== Google Search Collection =====**
 - ContextModelPrep.py : final Google sentence pre-processing step for final sentence re-structuring, cleaning and preparing a dataset for the model in GoogleABSA
@@ -59,7 +57,7 @@ Here is a brief file explaination for each directory, in the file structure orde
 - YouTubeSearch.py : script responsible for calling the YouTube Data API to retrieve relevant videos, then retrieve comments / transcripts from those videos in a second call
 - YouTubeSearchCommentCleaner.py : script that cleans and filters the YouTube comments in preperation for PrepComments.py
 
-*===== Frontend Module =====*
+**===== Frontend Module =====**
 
 This module is a contained react project hosted locally with node. Most files are auto-generated when the project is initialized, but here are the
 main files to pay attention to:
@@ -94,14 +92,12 @@ frontend-module -> src -> styles
 frontend-module -> src -> auto-complete.json
 - AI generated auto complete list used in parseProducts.js
 
-*===== Inputs / Outputs Directory =====*
+**===== Inputs / Outputs Directory =====**
 
 This directory is self-explanatory and holds most of the input and output files which are produced by the data collection module and AI module.
 Once the system completes a full run, you can track each output here at each stage in the pipeline.
 
-*-----------------------------------------------------------------*
-*--------------------- How To Run The System ---------------------*
-*-----------------------------------------------------------------*
+**--------------------- How To Run The System ---------------------**
 
 Here is a step-by-step guide on I (the developer) run the system locally, and how you can set it up locally aswell:
 
@@ -149,7 +145,7 @@ then this command: uvicorn main:app --reload
 You should see something similar to this output in the second terminal:
 
 -------------------------------------------------------------------
-INFO:     Will watch for changes in these directories: ['/Users/yarik/Documents/GitHub/bsc-final/Backend_Module']
+INFO:     Will watch for changes in these directories: []
 INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
 INFO:     Started reloader process [91400] using StatReload
 INFO:     Started server process [91402]
