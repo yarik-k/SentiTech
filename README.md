@@ -121,7 +121,6 @@ then this command: npm start
 
 You should see something similar to this output in the terminal:
 
-------------------------------------------------------------------
 Compiled successfully!
 
 You can now view frontend-module in the browser.
@@ -133,7 +132,6 @@ Note that the development build is not optimized.
 To create a production build, use npm run build.
 
 webpack compiled successfully
--------------------------------------------------------------------
 
 Step Six: Terminal -> New Terminal (create a new terminal)
 
