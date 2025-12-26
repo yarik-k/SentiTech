@@ -6,6 +6,10 @@ Once the data is prepared, the system applies a complex AI analysis stack. Googl
 
 ---
 
+## Screenshots
+
+---
+
 ## Introduction
 
 In this section I will briefly explain the file structure and what each file does.
