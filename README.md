@@ -8,6 +8,9 @@ Once the data is prepared, the system applies a complex AI analysis stack. Googl
 
 ## Screenshots
 
+<img width="1920" height="1440" alt="details1_1" src="https://github.com/user-attachments/assets/913a18bf-54c0-474c-a5cb-c48f56e93033" />
+
+
 ---
 
 ## Introduction
