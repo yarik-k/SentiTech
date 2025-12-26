@@ -101,57 +101,32 @@ Once the system completes a full run, you can track each output here at each sta
 
 Here is a step-by-step guide on I (the developer) run the system locally, and how you can set it up locally aswell:
 
-Step One: Open your code editor (I use VS Code)
+**Step One:** Open your code editor (I use VS Code)
 
-Step Two: Load the project file into the code editor
+**Step Two:** Load the project file into the code editor
 
-Step Three: Make sure Python 3.10+ is installed, then run this command from the project root to install project dependencies:
+**Step Three:** Make sure Python 3.10+ is installed, then run this command from the project root to install project dependencies:
 
 pip install -r requirements.txt
 
-Step Four: Install Node.js at: https://nodejs.org/en
+**Step Four:** Install Node.js at: https://nodejs.org/en
 
-Step Five: Terminal -> New Terminal (create a new terminal)
+**Step Five:** Terminal -> New Terminal (create a new terminal)
 
 run this command: cd frontend-module
 then this command: npm start
 
-(the directory should be bsc-final/frontend-module and the second command should start the development server locally)
+(the directory should be SentiTech/frontend-module and the second command should start the development server locally)
 (the react project should open in the browser on localhost:3000)
 
-You should see something similar to this output in the terminal:
-
-Compiled successfully!
-
-You can now view frontend-module in the browser.
-
-  Local:            http://localhost:3000
-  On Your Network:  http://192.168.0.111:3000
-
-Note that the development build is not optimized.
-To create a production build, use npm run build.
-
-webpack compiled successfully
-
-Step Six: Terminal -> New Terminal (create a new terminal)
+**Step Six:** Terminal -> New Terminal (create a new terminal)
 
 run this command: cd Backend_Module
 then this command: uvicorn main:app --reload
 
 (the directory should be bsc-final/Backend_Module and the second command should start the FastAPI server locally)
 
-You should see something similar to this output in the second terminal:
-
--------------------------------------------------------------------
-INFO:     Will watch for changes in these directories: []
-INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
-INFO:     Started reloader process [91400] using StatReload
-INFO:     Started server process [91402]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
--------------------------------------------------------------------
-
-Step Seven: Read the full welcome box and use the system!
+**Step Seven:** Read the full welcome box and use the system!
 
 PLEASE BEWARE BEFORE RUNNING!!: Please beware that this system was developed locally on a powerful machine with 48GB of RAM and
 a 40-core GPU (utilised with MPS). Due to the sheer data volume and weight of the backend processing, processing speed will vary greatly and may put a large strain on your local resources.
